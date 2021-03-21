@@ -13,5 +13,5 @@ app.get('/circulating_supply', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+    console.log(`CMCAPI listening at http://0.0.0.0:${port}`)
 })
