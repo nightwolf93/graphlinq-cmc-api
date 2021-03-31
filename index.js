@@ -5,7 +5,7 @@ const app = express()
 const port = process.env.PORT
 
 app.get('/total_supply', (req, res) => {
-    res.send("500000000");
+    res.send("499999972.79754");
 })
 
 app.get('/circulating_supply', (req, res) => {
